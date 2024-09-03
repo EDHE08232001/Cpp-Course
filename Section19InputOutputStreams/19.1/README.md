@@ -40,3 +40,7 @@ Input Device --> Input Stream --> Program --> Output Stream --> Output Device
     * standard error stream - by default 'connected' to the standard error device (console) instance of ostream (unbuffered)
 - clog
     * standard log stream - by default 'connected' to the standard log device (console) instance of ostream (unbuffered)
+
+*Global Objects:* initialized before main executes
+
+**Best practice is to use `cerr` for error messages and `clog` for log messages**
