@@ -16,11 +16,30 @@
 *.dll
 
 # Ignore build directories (like cmake or make outputs)
-/build/
-/bin/
-/Debug/
-/Release/
+**/build/
+**/bin/
+**/Debug/
+**/Release/
+
+# Ignore CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio build files
+.vscode/
+*.vcxproj*
+*.sln
 
 # Ignore temporary files created by editors or builds
 *~
 *.tmp
+*.swp  # Swap files often created by Vim or other editors
+.DS_Store # macOS Finder metadata files
+Thumbs.db # Windows Explorer thumbnail cache
+
+# Ignore logs, core dumps, and system files
+*.log
+*.core
+*.pid
