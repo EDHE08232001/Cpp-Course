@@ -33,7 +33,7 @@ Input Device --> Input Stream --> Program --> Output Stream --> Output Device
 
 ## Global Stream Objects
 - cin
-    * standard input stream - by default 'connected' to the standard input device (keyboard) instance of isrteam
+    * standard input stream - by default 'connected' to the standard input device (keyboard) instance of istream
 - cout
     * standard output stream - by default 'connected' to the standard output device (console) instance of ostream
 - cerr
