@@ -31,4 +31,12 @@ Input Device --> Input Stream --> Program --> Output Stream --> Output Device
     * provides for high-level I/O operations on memory based strings
     * derived from istringstream and ostringstream
 
-
+## Global Stream Objects
+- cin
+    * standard input stream - by default 'connected' to the standard input device (keyboard) instance of isrteam
+- cout
+    * standard output stream - by default 'connected' to the standard output device (console) instance of ostream
+- cerr
+    * standard error stream - by default 'connected' to the standard error device (console) instance of ostream (unbuffered)
+- clog
+    * standard log stream - by default 'connected' to the standard log device (console) instance of ostream (unbuffered)
