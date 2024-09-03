@@ -1,0 +1,26 @@
+# Ignore all object files
+*.o
+
+# Ignore all compiled binary files
+*.out
+*.exe
+
+# Ignore all shared object libraries (Linux/macOS)
+*.so
+
+# Ignore all static libraries
+*.a
+*.lib
+
+# Ignore all dynamically linked libraries (Windows)
+*.dll
+
+# Ignore build directories (like cmake or make outputs)
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore temporary files created by editors or builds
+*~
+*.tmp
