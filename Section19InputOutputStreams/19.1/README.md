@@ -17,3 +17,18 @@ Input Device --> Input Stream --> Program --> Output Stream --> Output Device
 - iomanip
     * provides definitions for manipulators used to format stream I/O
 
+## Commonly Used Stream Classes
+- ios
+    * provides basic support for formatted and unformatted I/O operations
+- ifstream
+    * provides for high-level input operations on file based streams
+- ofstream
+    * provides for high-level output operations on file based streams
+- fstream
+    * provides for high-level I/O operations on file based streams
+    * derived from ofstream and ifstream
+- stringstream
+    * provides for high-level I/O operations on memory based strings
+    * derived from istringstream and ostringstream
+
+
