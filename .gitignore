@@ -1,6 +1,9 @@
 # Ignore all object files
 *.o
 
+# Ignore all executable files in any directory
+**/*[!\\/]*
+
 # Ignore all compiled binary files
 *.out
 *.exe
