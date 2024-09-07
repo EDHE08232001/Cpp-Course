@@ -36,4 +36,4 @@ like
 0377
 ```
 
-***Note: * is the prefix for hexdecimal, and 0 is the prefix for octal!!!**
+***Note:* is the prefix for hexdecimal, and 0 is the prefix for octal!!!**
